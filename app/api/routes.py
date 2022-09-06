@@ -1,4 +1,3 @@
-from lib2to3.pgen2 import token
 from flask import Blueprint, request, jsonify, render_template
 from helpers import token_required
 from models import db, User, Car, car_schema, cars_schema
